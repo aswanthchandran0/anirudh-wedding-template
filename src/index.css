@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your existing colors/fonts */
+  --color-ivory: #faf9f6;
+  --color-ink: #1a1a1a;
+  --color-rosewood: #7A2E3A;
+
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+  --font-script: "Great Vibes", cursive;
+
+  /* 👈 NEW ANIMATIONS */
+  --animate-fade-up: fade-up 1s ease-out forwards;
+  --animate-slow-zoom: slow-zoom 20s ease-in-out infinite alternate;
+  --animate-float-down: float-down 15s linear infinite;
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes slow-zoom {
+    from { transform: scale(1); }
+    to { transform: scale(1.1); }
+  }
+
+  @keyframes float-down {
+    0% { transform: translateY(-100px) rotate(0deg); opacity: 0; }
+    10% { opacity: 0.6; }
+    90% { opacity: 0.6; }
+    100% { transform: translateY(110vh) rotate(360deg); opacity: 0; }
+  }
+}
+
+/* Optional: Staggered animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-700 { animation-delay: 700ms; }
