@@ -41,7 +41,7 @@ heroQuote: "Two souls, one heart. Bound by love, laughter, and a lifetime of sha
   revealDate: "NOVEMBER 20, 2024",
   revealTime: "12:00 PM",
 
-  galleryImages: [gallery1, gallery2, gallery3], // Add 4 images
+  galleryImages: [gallery1, gallery2, gallery3,gallery3,gallery3], // Add 4 images
   galleryTitle: "Our Love Story", 
   gallerySubtitle: "A journey of love, laughter, and forever.",
 

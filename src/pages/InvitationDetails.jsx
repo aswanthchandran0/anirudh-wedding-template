@@ -8,6 +8,7 @@ import Venue from '../components/Venue'
 import DressCode from '../components/DressCode'
 import Footer from '../components/Footer'
 import MusicPlayer from '../components/MusicPlayer'
+import PhotoMemories from '../components/PhotoMemories'
 
 const InvitationDetails = ({ onBack, onReveal }) => {
 
@@ -110,6 +111,7 @@ const InvitationDetails = ({ onBack, onReveal }) => {
           ========================================= */}
       <Venue />
       <DressCode />
+       <PhotoMemories />
         <Footer />
      <MusicPlayer />
     </div>
